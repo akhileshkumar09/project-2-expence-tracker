@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.expences-list{
+   
+    padding-top: 150px;
+}
+.list-items{
+    background: #c2b84b;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.4);
+}
+.list-items span,.delete{
+    border: none;
+    background: #aba245;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width : 900px) {
+    .list-items{
+        width: 95%;
+        margin: auto;
+    }
+}
